@@ -1,0 +1,78 @@
+.tg
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #999;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+.tg td
+{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#999;
+    color:#444;
+    background-color:#F7FDFA;
+}
+.tg th
+{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#999;
+    color:#fff;
+    background-color:#3d3d3d;
+}
+.tg .tg-kgaa
+{
+    background-color: #3cc190;
+    border-color:inherit;
+    text-align: center;
+	
+}
+.tg .tg-lto5
+{
+    background-color:#3cc190;
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-uys7
+{
+    border-color:inherit;
+    text-align:center;
+}
+.tg .tg-smn4
+{
+    background-color:#3d3d3d;
+    border-color:inherit;
+    text-align:left;
+    color: white;
+}
+.tg .tg-xldj
+{
+    border-color:inherit;
+    text-align:left;
+}
+.tg .tg-0pky
+{
+    text-align: center;
+	border-color:inherit;
+       vertical-align:top;
+}
+.tg .tg-0lax
+{
+    text-align: center;
+    vertical-align:top;
+}

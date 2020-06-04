@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title>Informator SLO</title>
+
+     <meta name="description" content="Zasady rekrutacji do Samorządowego Liceum Ogólnokształcącego w Stalowej Woli">
+     <meta name="keywords" content="rekrutacja, slo, szkoła,">
+     <meta name="author" content="Bartosz Kawalec & Karol Miśkiewicz">
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+     <link rel="stylesheet" href="./css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed:700&amp;subset=latin-ext" rel="stylesheet">
+      <script src="jquery.js"></script>
+     <script src="jquery.scrollTo.min.js"></script> -->
+      <script>
+         
+      jQuery(function($)
+      {
+          //zresetuj scrolla
+          $.scrollTo(0);
+           
+          $('#link1').click(function() { $.scrollTo($('#link1s'), 500); });
+          $('#link2').click(function() { $.scrollTo($('#link2s'), 500); });
+          $('#link3').click(function() { $.scrollTo($('#link3s'), 500); });
+          $('#link4').click(function() { $.scrollTo($('#link4s'), 500); });
+          $('#link5').click(function() { $.scrollTo($('#link5s'), 500); });
+          $('#link6').click(function() { $.scrollTo($('#link6s'), 500); });
+          $('#link1m').click(function() { $.scrollTo($('#link1s'), 500); });
+          $('#link2m').click(function() { $.scrollTo($('#link2s'), 500); });
+          $('#link3m').click(function() { $.scrollTo($('#link3s'), 500); });
+          $('#link4m').click(function() { $.scrollTo($('#link4s'), 500); });
+          $('#link5m').click(function() { $.scrollTo($('#link5s'), 500); });
+          $('#link6m').click(function() { $.scrollTo($('#link6s'), 500); });
+          $('#link0').click(function() { $.scrollTo($('#link0s'), 500); });
+          $('#link7').click(function() { $.scrollTo($('#link7s'), 500); });
+          $('#link0m').click(function() { $.scrollTo($('#link0s'), 500); });
+          $('#link7m').click(function() { $.scrollTo($('#link7s'), 500); });
+   
+          $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+      }
+      );
+       
+      //pokaż podczas przewijania
+      $(window).scroll(function()
+      {
+          if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+          else $('.scrollup').fadeOut();      
+      }
+      );
+   
+   
+  </script>
+  </head>
+  <body>
+      <a href="#" class="scrollup"></a>
+      <header>
+        <div id="cont">
+          <div id="text">
+          <div id="logo">
+            <a href="index.html">INFORMATOR DLA KANDYDATÓW</a>
+          </div>
+          <div id="slogo">
+            do Samorządowego Liceum Ogólnokształcącego</br>
+            im. Cypriana Kamila Norwida w Stalowej Woli
+          </div>
+          </div>
+          <div id="rok">
+            2020</br>
+            2021
+          </div>
+        </div>
+      <nav class="static">
+      </div>
+        <div class="menuContainer">
+          <ol class="menu">
+            <li><a href="#" id="link0">Założenia ogólne</a></li>           
+            <li><a href="#" id="link2">Oferta edukacyjna</a></li>
+            <li><a href="#" id="link4">Wymagane dokumenty</a></li>
+            <li><a href="#" id="link6">Terminy</a></li>
+            <li><a href="#" id="link7">Kontakt</a></li>
+          </ol>
+        </div>
+      </nav>
+      </header>
+      <main>
+        <article>
+            <div class="wprowadzenie"> 
+              Szkoła oferuje naukę w sześciu klasach pierwszych o następujących rozszerzeniach:<br>
+              1A - rozszerzone treści nauczania z j. polskiego, historii i wiedzy o społeczeństwie</br>
+			  1B - rozszerzone treści nauczania z biologii, chemii, matematyki,</br>
+			  1C - rozszerzone treści nauczania z matematyki, fizyki, informatyki,</br>
+			  1D - rozszerzone treści nauczania z matematyki, geografii, informatyki,</br>
+			  1E - rozszerzone treści nauczania z matematyki, geografii i j. angielskiego,</br>
+			  1F - klasa sportowa o rozszerzeniu biologii, geografii i języka angielskiego.</br>
+			  O przyjęciu do klasy sportowej decydują potwierdzone przez trenerów predyspozycje oraz udokumentowane osiągnięcia sportowe i test sprawnościowy. Nabór do klasy sportowej odbywa się poza systemem elektronicznym. 
+            </div> 
+            <div id="link0s" class="header">
+              ZAŁOŻENIA OGÓLNE
+            </div>
+              1.	Szkoła oferuje nauczanie w systemie klasowym.</br>
+              2.	Wyboru klasy kandydaci dokonują na etapie rekrutacji.</br>
+              3.	Wiodący język obcy to angielski - nauczanie w grupach wg stopnia zaawansowania.</br>
+              4.	Drugi język obcy do wyboru: niemiecki lub francuski - nauczanie w grupach wg zaawansowania.</br>
+              5.	We wszystkich klasach zajęcia dodatkowe to religia lub etyka, WDŻ oraz możliwość nauki języka łacińskiego i hiszpańskiego.</br>
+
+            <div id="link2s" class="header">
+                OFERTA EDUKACYJNA
+            </div>
+            <div class="tabele">
+              <div class="klasy">
+                <a class="link" href="src\klasa-a-pp.html"><div class="kafelek">KLASA A</div></a>
+                <a class="link" href="src\klasa-b-pp.html"><div class="kafelek">KLASA B</div></a>
+                <a class="link" href="src\klasa-c-pp.html"><div class="kafelek">KLASA C</div></a>
+                <div style="clear: both;"></div>
+                <a class="link" href="src\klasa-d-pp.html"><div class="kafel">KLASA D</div></a>
+                <a class="link" href="src\klasa-e-pp.html"><div class="kafel">KLASA E</div></a>
+                <a class="link" href="src\klasa-f-pp.html"><div class="kafel">KLASA F</div></a>
+                <div style="clear: both;"></div>
+              </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div id="link4s" class="header">
+               WYMAGANE DOKUMENTY
+          </div>
+          <span class="text">
+          <b>- wniosek o przyjęcie do szkoły </b> - wygenerowany z systemu elektronicznego,</br>
+          <b>- świadectwo ukończenia szkoły podstawowej,</br>
+          <b>- zaświadczenie o wynikach egzaminu ósmoklasisty,</b></br>
+          <b>- karta zdrowia i szczepień (po zakończeniu rekrutacji),</br>
+          <b>- dwa zdjęcia (podpisane na odwrocie, po przyjęciu do szkoły),</b></br>
+          <b>- opinia publicznej poradni psychologiczno - pedagogicznej w sprawie problemów zdrowotnych (jeśli uczeń posiada).</b></br>
+          </span>
+      
+        <div id="link6s" class="header">
+          TERMINY
+        </div>
+        <span class="text">
+             <b>od 11 maja do 23 czerwca 2020 r.<b> – składanie wniosków,</br>
+             <b>od 11 do 20 maja 2020 r.</b> – składanie wniosków do szkoły mistrzostwa sportowego,</br>
+             <b>od 21 do 31 maja 2020 r.</b> –  przeprowadzenie prób sprawności fizycznej do klasy sms,</br>
+             <b>do 10 czerwca 2020 r.</b> – upublicznienie listy kandydatów z pozytywnym wynikiem prób,</br>
+             <b>od 26 do 30 czerwca 2020 r. do godz. 15:00</b> – uzupełnienie wniosku o przyjęcie do szkoły ponadpodstawowej o kopie świadectwa ukończenia szkoły oraz zaświadczenia o wynikach egzaminu ósmoklasisty (dotyczy tylko kandydatów, którzy w rekrutacji elektronicznej samodzielnie zakładali konta),</br>
+             <b>do 10 lipca 2020 r.</b> – postępowanie rekrutacyjne – weryfikacja wniosków,</br>
+             <b>13 lipca 2020 r.  </b>– ogłoszenie listy kandydatów zakwalifikowanych i listy niezakwalifikowanych,</br>
+             <b>od 13 do 20 lipca 2020 r. do godz. 15:00</b> – potwierdzenie przez rodzica kandydata woli podjęcia nauki w szkole poprzez złożenie oryginałów świadectwa ukończenia szkoły podstawowej i zaświadczenia o wynikach egzaminu ósmoklasisty,</br>
+             <b>21 lipca 2020 r. do godz. 14:00</b> – ogłoszenie listy przyjętych i nieprzyjętych</br>
+          </span>  
+      
+        <div id="link7s" class="header">
+            KONTAKT
+        </div>
+        <span class="text">
+            <a class="finallink" href="https://slosw.pl/" target="_blank">Link do strony internetowej</a></br>
+            Ponadto informacji udziela:</br>
+            Sekretariat Samorządowego Liceum Ogólnokształcącego</br>
+			im. C. K. Norwida w Stalowej Woli</br>
+            ul. Wojska Polskiego 9</br>
+            tel. 844-87-16 lub tel./fax 842-18-33; www.slosw.pl; e-mail:zsonr2sw@tg.onet.pl</br>
+            
+        </span>
+      </article>
+    </main>
+    <footer>
+        <em>Autorami witryny są Bartosz Kawalec & Karol Miśkiewicz.</em>
+    </footer>  
+    <script src="js/stickyNav.js"></script>
+  </body>
+
+</html>
